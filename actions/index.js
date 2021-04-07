@@ -1,8 +1,4 @@
 import axios from "axios";
-
-const API_URL = "https://schema.postman.com/json/collection/v2.1.0/";
-const PROXI_URL = "https://cors-anywhere.herokuapp.com/";
-const endpoint = PROXI_URL + API_URL;
 function fetchProducts() {
     return async dispatch => {
         try {
