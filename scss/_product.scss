@@ -1,6 +1,7 @@
 .image_container,
 .article_section,
-.react-tabs {
+.react-tabs__tab-list,
+.react-tabs__tab-panel--selected {
     background-color: #fff;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -38,11 +39,6 @@
 
     .section_article {
         margin-right: 16px;
-    }
-
-    .react-tabs__tab-list,
-    .react-tabs__tab-panel--selected .article_section {
-        width: 80%;
     }
 
     .main_section {

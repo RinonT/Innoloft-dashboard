@@ -20,7 +20,6 @@ export default function ProductTabsComponent(props) {
               <Route path="/product" component={() => (
                 <div className="article_section tab_content">
                   <p className="product_description" dangerouslySetInnerHTML={{__html: product.description}}>
-                
                   </p>
                 </div>
               )

@@ -95,14 +95,28 @@ header {
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px; }
+    .react-tabs .react-tabs__tab-list .react-tabs__tab:hover {
+      background-color: #297763;
+      border: 0 solid #297763;
+      transition: all 0.25s ease-in-out; }
+  .react-tabs .react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected {
+    background-color: #297763; }
+    .react-tabs .react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected a {
+      color: #fff; }
   .react-tabs .react-tabs__tab-list a {
     color: #838c99; }
+  .react-tabs .react-tabs__tab-list a:hover {
+    color: #fff; }
+
+.react-tabs__tab-panel--selected {
+  padding: 1rem; }
 
 .react-tabs__tab-panel--selected .article_section {
   padding: 0;
   margin: 0; }
 
-.tab_content.attributes h4, .tab_content.attributes select {
+.tab_content.attributes h4,
+.tab_content.attributes select {
   color: #828a97; }
 
 .tab_content.attributes label {
@@ -114,11 +128,12 @@ header {
   border: 1px solid #ddd;
   border-radius: 1em;
   display: inline-block;
-  padding: .375em 1.5em; }
+  padding: 0.375em 1.5em; }
 
 .image_container,
 .article_section,
-.react-tabs {
+.react-tabs__tab-list,
+.react-tabs__tab-panel--selected {
   background-color: #fff;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -145,9 +160,6 @@ header {
     justify-content: space-between; }
   .section_article {
     margin-right: 16px; }
-  .react-tabs__tab-list,
-  .react-tabs__tab-panel--selected .article_section {
-    width: 80%; }
   .main_section {
     position: absolute;
     top: 162%;
