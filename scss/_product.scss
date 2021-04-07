@@ -24,6 +24,12 @@
     }
 }
 
+.article_section.map {
+    iframe {
+        border: transparent;
+    }
+}
+
 @media (min-width: 768px) {
     .article_section.product_maininfo {
         display: flex;

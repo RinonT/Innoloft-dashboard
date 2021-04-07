@@ -3,7 +3,6 @@ function fetchProducts() {
     return async dispatch => {
         try {
             const product = await axios.get(`https://api-test.innoloft.com/product/6781/`).then(res => {
-                console.log(res.data);
                 return res.data;
             });
 

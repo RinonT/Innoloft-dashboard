@@ -39599,7 +39599,6 @@ function fetchProducts() {
   return async dispatch => {
     try {
       const product = await _axios.default.get(`https://api-test.innoloft.com/product/6781/`).then(res => {
-        console.log(res.data);
         return res.data;
       });
       dispatch({
