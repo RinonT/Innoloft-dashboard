@@ -55,7 +55,11 @@
 
   label {
     display: block;
-    margin-bottom: 1rem;
+
+    &:not(:last-of-type) {
+      margin-bottom: 1.5rem;
+    }
+    
   }
 
   select {
@@ -63,6 +67,6 @@
     border: 1px solid #ddd;
     border-radius: 1em;
     display: inline-block;
-    padding: 0.375em 1.5em;
+    padding: 1em 1.5em;
   }
 }

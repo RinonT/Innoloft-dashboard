@@ -124,15 +124,16 @@ header {
   color: #828a97; }
 
 .tab_content.attributes label {
-  display: block;
-  margin-bottom: 1rem; }
+  display: block; }
+  .tab_content.attributes label:not(:last-of-type) {
+    margin-bottom: 1.5rem; }
 
 .tab_content.attributes select {
   font-size: 1rem;
   border: 1px solid #ddd;
   border-radius: 1em;
   display: inline-block;
-  padding: 0.375em 1.5em; }
+  padding: 1em 1.5em; }
 
 .image_container,
 .article_section,
@@ -174,29 +175,26 @@ header {
     top: 85px;
     left: 17%; }
   .section_article:nth-of-type(2) {
-    position: relative; }
+    position: relative;
+    display: grid;
+    grid-template-rows: 57% auto;
+    padding-bottom: 0;
+    padding-bottom: 0; }
   .page__container.section_container {
     display: grid;
     grid-template-columns: 50% 50%; }
   .user_info__container {
     display: flex;
     justify-content: space-between;
-    margin-top: .5rem;
-    padding-bottom: .5rem; }
-  .article_section.map {
-    position: absolute;
-    bottom: 0;
-    width: 94%;
-    height: 43%;
-    position: relative; }
-    .article_section.map iframe {
-      width: 94%;
-      height: 78vh;
-      object-fit: fill;
-      position: absolute;
-      top: 1rem;
-      bottom: 1rem;
-      left: 1rem; } }
+    margin-top: 1.5rem;
+    padding-bottom: 2.5rem; }
+  .article_section.user_info {
+    height: max-content; }
+  .react-tabs__tab-panel--selected {
+    min-height: 406px; }
+  .article_section.map iframe {
+    object-fit: fill;
+    height: 96%; } }
 
 
 /*# sourceMappingURL=/css.967bad95.css.map */
