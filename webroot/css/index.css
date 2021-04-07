@@ -77,9 +77,13 @@ header {
     font-size: 2.4rem;
     line-height: 3rem; }
   .intro_Intro__2qAVQ p {
-    font-family: Open Sans,sans-serif;
+    font-family: Open Sans, sans-serif;
     line-height: 2.8rem;
     margin-bottom: 1rem; }
+
+@media (min-width: 1114px) {
+  .intro_Intro__2qAVQ {
+    text-align: unset; } }
 
 .react-tabs .react-tabs__tab-list {
   display: flex;
