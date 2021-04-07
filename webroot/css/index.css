@@ -58,7 +58,7 @@ header {
   position: unset; }
 
 @media (min-width: 768px) {
-  .section.navigation__section {
+  section .navigation__section {
     position: fixed; }
   .navigation__tab {
     margin-bottom: 2rem; }
@@ -150,7 +150,7 @@ header {
     width: 80%; }
   .main_section {
     position: absolute;
-    top: 40%;
+    top: 162%;
     left: 25%; } }
 
 @media (min-width: 1114px) {

@@ -5,9 +5,9 @@
      position: unset; 
  }
  @media(min-width: 768px) {
-     .section.navigation__section {
-         position: fixed; 
-     }
+    section .navigation__section {
+        position: fixed;
+    } 
  
      .navigation__tab {
          &:first-of-type {
