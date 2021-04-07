@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { Header, SideBar } from '../containers';
-import { Main, Product } from '../pages';
+import { Home, Product } from '../pages';
 
 export default function App() {
     return (
@@ -13,7 +13,7 @@ export default function App() {
                 </section>
                 <Switch>
                     <Route exact path="/">
-                        <Main />
+                        <Home />
                     </Route>
                     <Route exact path="/product">
                         <Product />
