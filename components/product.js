@@ -34,7 +34,9 @@ export default function ProductComponent(props) {
                         <iframe
                             src={
                                 `https://maps.google.com/maps?q="${props.company.address.latitude},${props.company.address.longitude}}&t=&z=15&ie=UTF8&iwloc=&output=embed`
-                            } 
+                            }
+                            width="100%"
+                            height="250px" 
                             loading="lazy"
                         ></iframe>
                     </div>
