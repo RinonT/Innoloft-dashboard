@@ -78,6 +78,10 @@
         height: max-content;
     }
 
+    .map {
+        display: grid;
+    }
+    
     .react-tabs__tab-panel--selected {
         min-height: 406px;
     }
@@ -86,7 +90,7 @@
      
         iframe {   
             object-fit: fill;
-            height: 96%;
+            height: 100%;
         }
     }
 }
