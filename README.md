@@ -55,7 +55,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 $ git clone https://github.com/ganamavo/Frontend-Application.git
 
 # Install dependencies
-$ yarn install
+$ yarn 
 
 # Run the app
 $ yarn start 
