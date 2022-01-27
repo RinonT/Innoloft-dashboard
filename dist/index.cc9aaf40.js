@@ -29888,7 +29888,7 @@ function ProductContainer() {
         dispatch(_actions.fetchListOfTrl());
     }, []);
     return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_reactDefault.default.Fragment, {
-        children: loading && !product ? /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_components.ProductComponent, {
+        children: !loading && product ? /*#__PURE__*/ _jsxDevRuntime.jsxDEV(_components.ProductComponent, {
             picture: product.picture,
             name: product.name,
             type: product.type,
