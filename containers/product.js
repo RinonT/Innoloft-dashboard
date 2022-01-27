@@ -16,7 +16,7 @@ export default function ProductContainer() {
  
     return (
         <React.Fragment>
-            { !loading && product ?
+            { loading && !product ?
                 <ProductComponent 
                 picture={product.picture}
                 name={product.name}

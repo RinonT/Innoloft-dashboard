@@ -182,7 +182,8 @@ header {
     padding-bottom: 0; }
   .page__container.section_container {
     display: grid;
-    grid-template-columns: 50% 50%; }
+    grid-template-columns: 50% 50%;
+    min-width: 250px; }
   .user_info__container {
     display: flex;
     justify-content: space-between;
