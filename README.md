@@ -26,18 +26,15 @@
  ![innoloft-mobile](https://user-images.githubusercontent.com/60210091/151350799-c113c043-5fce-474d-81e6-b40f6c2d6d20.jpg)
 
  ![innoloft-tablet](https://user-images.githubusercontent.com/60210091/151350826-5b39dae7-49c4-4a33-97a6-8265e5806413.jpg)
-
-## Design
-**Design** : https://www.figma.com/file/Gw0ZNBbYN8asqFlZWy3jG1
-
+ 
 ## Features
   - Built with React Hooks when applying Redux, and CSS 
   - Fetch some data from an API. The API base url is `https://api-test.innoloft.com`
-      Product
+      - Product:
         - GET `/product/6781/`
         - PUT `/product/6781/`
-        - TRL List
-        - GET `/trl/` 
+      - TRL List
+      - GET `/trl/` 
  
 ## Built With
 - [React](https://reactjs.org/)
