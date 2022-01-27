@@ -22,6 +22,10 @@
     - user company name
   - Map displays company address on Google maps (bonus)
 
+## Example Mockup
+![mockup](mockup.jpg)
+
+
 ## Finished app screenshot
  ![innoloft-mobile](https://user-images.githubusercontent.com/60210091/151350799-c113c043-5fce-474d-81e6-b40f6c2d6d20.jpg)
 
@@ -40,9 +44,6 @@
 - [React](https://reactjs.org/)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - Redux
-
-## Example Mockup
-![mockup](mockup.jpg)
 
 ## How To Use
 
