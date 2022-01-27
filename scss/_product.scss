@@ -31,6 +31,10 @@
   }
 }
 
+.product_description img {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .article_section.product_maininfo {
     display: flex;
