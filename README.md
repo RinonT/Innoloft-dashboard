@@ -1,5 +1,5 @@
  
-# Innoloft's Dashboard for a product
+# Innoloft's Dashboard for displaying product
 
 <!-- OVERVIEW -->
 
