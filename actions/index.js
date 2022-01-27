@@ -11,8 +11,7 @@ function fetchProducts() {
                 payload: product
             });
         }
-        catch (error) {
-            console.log(error);
+        catch (error) { 
             dispatch({
                 type: "FETCH_PRODUCT_ERROR",
                 payload: error.message
@@ -43,8 +42,7 @@ const fetchListOfTrl = () => {
                 type: "FETCH_TRL_LIST",
                 payload: TRLList
             });
-        } catch (error) {
-            console.log(error);
+        } catch (error) { 
             dispatch({
                 type: "FETCH_TRL_ERROR",
                 payload: "error fetching trl list"
