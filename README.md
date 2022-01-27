@@ -43,7 +43,8 @@
 ## Built With
 - [React](https://reactjs.org/)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- Redux
+- [SCSS](https://sass-lang.com/)
+- [Redux](https://redux.js.org/)
 
 ## How To Use
 
